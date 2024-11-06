@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #333;
+  height: 6em;
+}
+
+.navbar>a {
+  margin: 2em;
+}
+
+.navbar>a:active {
+  background-color: cadetblue;
+}
