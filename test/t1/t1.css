@@ -5,6 +5,7 @@
 }
 
 .navbar {
+  list-style-type: none;
   position: fixed;
   background-color: #333;
   margin: 0;
@@ -13,12 +14,13 @@
   overflow: hidden;
 }
 
-.navbar>a {
+.navbar>li {
+  display: block;
   padding: 2em;
   color: white;
   text-decoration: none;
 }
 
-.navbar>a:active {
+.navbar>li.active {
   background-color: cadetblue;
 }
