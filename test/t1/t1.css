@@ -8,10 +8,13 @@
   position: fixed;
   background-color: #333;
   height: 6em;
+  width: 100dvw;
+  overflow: hidden;
 }
 
 .navbar>a {
   margin: 2em;
+  text-decoration: none;
 }
 
 .navbar>a:active {
