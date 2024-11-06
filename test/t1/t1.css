@@ -16,11 +16,11 @@
   float: left;
   display: block;
   padding: 2em;
-  text-decoration: none;
 }
 
 .navbar li a {
   color: white;
+  text-decoration: none;
 }
 
 .navbar li.active {
