@@ -7,13 +7,15 @@
 .navbar {
   position: fixed;
   background-color: #333;
-  height: 6em;
+  margin: 0;
+  padding: 0;
   width: 100dvw;
   overflow: hidden;
 }
 
 .navbar>a {
-  margin: 2em;
+  padding: 2em;
+  color: white;
   text-decoration: none;
 }
 
